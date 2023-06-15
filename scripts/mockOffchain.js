@@ -13,7 +13,7 @@ async function mockKeepers() {
             await mockVrf(requestId, raffle)
         }
     } else {
-        console.log("No upkeep needed!")
+        console.log("No upkeep needed! ")
     }
 }
 

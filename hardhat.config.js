@@ -15,6 +15,10 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "key"
 module.exports = {
     defaultNetwork: "hardhat",
     networks: {
+        localhost: {
+            chainId: 31337,
+            blockConfirmations: 1,
+        },
         hardhat: {
             chainId: 31337,
             blockConfirmations: 1,
