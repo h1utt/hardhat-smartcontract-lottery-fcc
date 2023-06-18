@@ -1,5 +1,5 @@
 // Raffle
-// Enther the lottery (paying some amout)
+// Ether the lottery (paying some amout)
 // Pick a random winner (verifiably random)
 // Winner to be selected every X minutes -> Completely automated
 // Chainlink Oracle -> Randomness (Chainlink VRF), Automated Execution (Chainlink Keeper)
